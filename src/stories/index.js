@@ -7,7 +7,8 @@ import { linkTo } from '@storybook/addon-links';
 import Game from '../components/Game';
 import Game2 from '../components/Game2';
 
-storiesOf('Game', module)
-  .add('game1', () => <Game />)
-  .add('game2', () => <Game2 />)
+storiesOf('Game.js', module)
+  .add('clickable', () => <Game />)
+  .add('draggable', () => <Game2 />)
+
 
